@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Inter', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #f8f9fc;
+    color: #222;
+}
+
+.InterestSection {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.InterestHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.InterestHeader h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.InterestHeader p {
+    color: #777;
+    line-height: 1.6;
+}
+
+.FormGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.3rem;
+    gap: 0.5rem;
+}
+
+.FormGroup label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.FormGroup input,
+.FormGroup select,
+.FormGroup textarea {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    outline: none;
+    background: white;
+}
+
+.FormGroup input:focus,
+.FormGroup select:focus,
+.FormGroup textarea:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.1);
+}
+
+.FormGroup textarea {
+    resize: vertical;
+}
+
+.SubmitButton {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #6366f1;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.SubmitButton:hover {
+    background: #4f46e5;
+    transform: translateY(-2px);
+}
+
+#SuccessMessage {
+    text-align: center;
+    color: #16a34a;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    .InterestSection {
+        margin: 1rem auto;
+        padding: 1.5rem;
+    }
+}

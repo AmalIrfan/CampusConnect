@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CampusConnect | Better College Life</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="Navbar">
+        <a href="#home" class="Logo">CampusConnect</a>
+
+        <button
+          class="MenuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <img src="images/bars.svg" alt="" />
+        </button>
+
+        <div class="NavLinks">
+          <a href="#home">Home</a>
+          <a href="#events">Events</a>
+          <a href="#clubs">Clubs & Activities</a>
+          <a href="#announcements">Announcements</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="Hero">
+        <div class="HeroContent">
+          <p>Welcome to</p>
+          <h1>Campus Connect</h1>
+
+          <span class="HeroTagline">
+            Discover exciting events and stay updated.
+          </span>
+
+          <p class="HeroDescription">
+            Your campus, your community, your connections. Explore student
+            clubs, take part in exciting activities, discover upcoming events,
+            and never miss what's happening around your college.
+          </p>
+
+          <a href="#events" class="ScrollButton">
+            Explore Campus
+            <span class="Chevrons" aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="events" class="ContentSection">
+        <div class="SectionHeader">
+          <h2>Campus Events</h2>
+          <p>Discover what's happening around your campus.</p>
+        </div>
+
+        <div class="CardContainer">
+          <article class="Card">
+            <img src="images/tech-fest.jpg" alt="Tech Fest" class="CardImage" />
+
+            <div class="CardContent">
+              <span class="CardDate">December 12, 2026</span>
+              <h3>Tech Fest</h3>
+              <p>
+                Explore technology, innovation and creativity through exciting
+                competitions and exhibitions.
+              </p>
+              <ul>
+                <li>Hackathons</li>
+                <li>Robotics</li>
+                <li>Project Exhibitions</li>
+                <li>Coding Competitions</li>
+              </ul>
+              <a href="interest.html?event=Tech%20Fest" class="CardButton">
+                I'm Interested →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img src="images/arts-day.jpg" alt="Arts Day" class="CardImage" />
+
+            <div class="CardContent">
+              <span class="CardDate">December 18, 2026</span>
+              <h3>Arts Day</h3>
+              <p>Celebrate creativity and showcase your artistic talents.</p>
+              <ul>
+                <li>Dance</li>
+                <li>Music</li>
+                <li>Drama</li>
+                <li>Painting</li>
+              </ul>
+              <a href="interest.html?event=Arts%20Day" class="CardButton">
+                I'm Interested →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img
+              src="images/sports-meet.jpg"
+              alt="Sports Meet"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">January 05, 2027</span>
+              <h3>Sports Meet</h3>
+              <p>Show your athletic skills and embrace teamwork.</p>
+              <ul>
+                <li>Football</li>
+                <li>Cricket</li>
+                <li>Athletics</li>
+                <li>Volleyball</li>
+              </ul>
+              <a href="interest.html?event=Sports%20Meet" class="CardButton">
+                I'm Interested →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img src="images/workshop.jpg" alt="Workshop" class="CardImage" />
+
+            <div class="CardContent">
+              <span class="CardDate">January 12, 2027</span>
+              <h3>Workshop</h3>
+              <p>Learn practical skills through interactive sessions.</p>
+              <ul>
+                <li>Web Development</li>
+                <li>AI & Machine Learning</li>
+                <li>UI/UX Design</li>
+                <li>Photography</li>
+              </ul>
+              <a href="interest.html?event=Workshop" class="CardButton">
+                I'm Interested →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img src="images/seminar.jpg" alt="Seminar" class="CardImage" />
+
+            <div class="CardContent">
+              <span class="CardDate">January 20, 2027</span>
+              <h3>Seminar</h3>
+              <p>Gain insights from experts and experienced speakers.</p>
+              <ul>
+                <li>Career Guidance</li>
+                <li>Entrepreneurship</li>
+                <li>Technology Talks</li>
+                <li>Research Presentations</li>
+              </ul>
+              <a href="interest.html?event=Seminar" class="CardButton">
+                I'm Interested →
+              </a>
+            </div>
+          </article>
+        </div>
+        <button class="ExpandButton">Show More ↓</button>
+      </section>
+      <section id="clubs" class="ContentSection">
+        <div class="SectionHeader">
+          <h2>Clubs & Activities</h2>
+          <p>
+            Find your passion, meet like-minded people and become part of
+            something bigger.
+          </p>
+        </div>
+
+        <div class="CardContainer">
+          <article class="Card">
+            <img
+              src="images/coding-club.jpg"
+              alt="Coding Club"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Technology & Innovation</span>
+              <h3>Coding Club</h3>
+              <p>
+                Explore programming, develop technical skills and collaborate
+                with fellow tech enthusiasts.
+              </p>
+              <ul>
+                <li>Hackathons</li>
+                <li>Web Development</li>
+                <li>Competitive Programming</li>
+                <li>App Development</li>
+              </ul>
+              <a href="interest.html?club=Coding%20Club" class="CardButton">
+                Learn More →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img
+              src="images/photography-club.jpg"
+              alt="Photography Club"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Photography & Media</span>
+              <h3>Photography Club</h3>
+              <p>
+                Capture moments, explore visual storytelling and improve your
+                photography skills.
+              </p>
+              <ul>
+                <li>Photo Walks</li>
+                <li>Photo Exhibitions</li>
+                <li>Editing Workshops</li>
+                <li>Campus Photography</li>
+              </ul>
+              <a
+                href="interest.html?club=Photography%20Club"
+                class="CardButton"
+              >
+                Learn More →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img
+              src="images/music-club.gif"
+              alt="Music Club"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Music & Performance</span>
+              <h3>Music Club</h3>
+              <p>
+                Express yourself through music, discover your talent and
+                collaborate with fellow musicians.
+              </p>
+              <ul>
+                <li>Band Performances</li>
+                <li>Singing</li>
+                <li>Instrumental Music</li>
+                <li>Music Competitions</li>
+              </ul>
+              <a href="interest.html?club=Music%20Club" class="CardButton">
+                Learn More →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img src="images/arts-club.jpg" alt="Arts Club" class="CardImage" />
+
+            <div class="CardContent">
+              <span class="CardDate">Art & Creativity</span>
+              <h3>Arts Club</h3>
+              <p>
+                Unleash your creativity and explore different forms of artistic
+                expression.
+              </p>
+              <ul>
+                <li>Painting</li>
+                <li>Sketching</li>
+                <li>Craft Making</li>
+                <li>Art Exhibitions</li>
+              </ul>
+              <a href="interest.html?club=Arts%20Club" class="CardButton">
+                Learn More →
+              </a>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img
+              src="images/sports-club.jpg"
+              alt="Sports Club"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Fitness & Teamwork</span>
+              <h3>Sports Club</h3>
+              <p>
+                Stay active, develop teamwork and represent your college through
+                sports and competitions.
+              </p>
+              <ul>
+                <li>Football</li>
+                <li>Cricket</li>
+                <li>Badminton</li>
+                <li>Athletics</li>
+              </ul>
+              <a href="interest.html?club=Sports%20Club" class="CardButton">
+                Learn More →
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <button class="ExpandButton">Show More ↓</button>
+      </section>
+      <section id="announcements" class="ContentSection">
+        <div class="SectionHeader">
+          <h2>Announcements</h2>
+          <p>Stay informed about the latest campus updates.</p>
+        </div>
+
+        <div class="CardContainer">
+          <article class="Card">
+            <img
+              src="images/reopening.jpg"
+              alt="College Reopening"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Academic Update</span>
+              <h3>College Reopening</h3>
+              <p>
+                Classes will resume after the semester break. Students are
+                requested to report to campus on the reopening date.
+              </p>
+              <p><strong>Date:</strong> January 5, 2027</p>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img
+              src="images/examination.jpg"
+              alt="Examination Registration"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Examination Notice</span>
+              <h3>Examination Registration</h3>
+              <p>
+                Registration for the upcoming semester examinations is now open.
+                Complete your registration before the deadline.
+              </p>
+              <p><strong>Last Date:</strong> December 20, 2026</p>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img
+              src="images/library.jpg"
+              alt="College Library"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Library Update</span>
+              <h3>Revised Library Timings</h3>
+              <p>
+                The college library will follow revised working hours. Students
+                are requested to take note of the new schedule.
+              </p>
+              <p><strong>New Hours:</strong> 9:00 AM – 5:00 PM</p>
+            </div>
+          </article>
+
+          <article class="Card">
+            <img
+              src="images/event-registration.jpg"
+              alt="Event Registration"
+              class="CardImage"
+            />
+
+            <div class="CardContent">
+              <span class="CardDate">Event Notice</span>
+              <h3>Event Registration</h3>
+              <p>
+                Registrations are open for upcoming college events. Interested
+                students can register through CampusConnect.
+              </p>
+              <a href="interest.html?event=Tech%20Fest" class="CardButton">
+                Register Now →
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <button class="ExpandButton">Show More ↓</button>
+      </section>
+      <section id="contact" class="ContentSection">
+        <div class="SectionHeader">
+          <h2>Contact Us</h2>
+          <p>Have a question? Get in touch with us.</p>
+        </div>
+
+        <form class="ContactForm">
+          <label for="contactName">Your Name</label>
+          <input type="text" id="contactName" required />
+
+          <label for="contactEmail">Email Address</label>
+          <input type="email" id="contactEmail" required />
+
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" rows="5" required></textarea>
+
+          <button type="submit" class="CardButton">Send Message</button>
+        </form>
+      </section>
+
+      <section id="about" class="ContentSection">
+        <div class="SectionHeader">
+          <h2>About CampusConnect</h2>
+          <p>Better college life starts with connection.</p>
+        </div>
+
+        <div class="AboutContent">
+          <p>
+            CampusConnect brings your college community together. Discover
+            events, explore student clubs, participate in activities and stay
+            updated with campus announcements.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="Footer">
+      <div class="FooterContent">
+        <div class="FooterBrand">
+          <h2>CampusConnect.</h2>
+          <p>
+            Discover events, explore clubs and stay connected with everything
+            happening on campus.
+          </p>
+        </div>
+
+        <div class="FooterLinks">
+          <h3>Explore</h3>
+          <a href="#home">Home</a>
+          <a href="#events">Campus Events</a>
+          <a href="#clubs">Clubs & Activities</a>
+          <a href="#announcements">Announcements</a>
+        </div>
+
+        <div class="FooterLinks">
+          <h3>More</h3>
+          <a href="#contact">Contact</a>
+          <a href="#about">About Us</a>
+          <a href="interest.html">Join an Activity</a>
+          <a href="#home">Back to Top ↑</a>
+        </div>
+      </div>
+
+      <div class="FooterBottom">
+        <span>CampusConnect.</span>
+        <span>Made for campus life.</span>
+        <button class="ThemeToggle" id="ThemeToggle">
+  Theme: Light
+</button>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

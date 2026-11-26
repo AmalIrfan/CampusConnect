@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusConnect | Interest Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="interest.css">
+</head>
+
+<body>
+
+<section class="InterestSection">
+
+    <div class="InterestHeader">
+        <h1>Get Involved!</h1>
+        <p>
+            Interested in participating? Fill out the form below
+            and take your first step towards campus life.
+        </p>
+    </div>
+
+    <form id="InterestForm">
+
+        <div class="FormGroup">
+            <label for="name">Full Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name"
+                required
+            >
+        </div>
+
+        <div class="FormGroup">
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+        </div>
+
+        <div class="FormGroup">
+            <label for="department">Department</label>
+            <input
+                type="text"
+                id="department"
+                placeholder="e.g. Computer Science"
+                required
+            >
+        </div>
+
+        <div class="FormGroup">
+            <label for="year">Academic Year</label>
+            <select id="year" required>
+                <option value="">Select your year</option>
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Fourth Year</option>
+            </select>
+        </div>
+
+        <div class="FormGroup">
+            <label for="interestType">Interest Type</label>
+            <select id="interestType" required>
+                <option value="">Select type</option>
+                <option value="event">Event</option>
+                <option value="club">Club</option>
+            </select>
+        </div>
+
+        <div class="FormGroup">
+            <label for="interestItem">Select Your Interest</label>
+            <select id="interestItem" required>
+                <option value="">Choose an event or club</option>
+            </select>
+        </div>
+
+        <div class="FormGroup">
+            <label for="message">Why are you interested? (Optional)</label>
+            <textarea
+                id="message"
+                rows="4"
+                placeholder="Tell us a little about your interest..."
+            ></textarea>
+        </div>
+
+        <button type="submit" class="SubmitButton">
+            Submit Request →
+        </button>
+
+        <p id="SuccessMessage" aria-live="polite"></p>
+
+    </form>
+
+</section>
+
+<script src="interest.js"></script>
+
+</body>
+</html>
